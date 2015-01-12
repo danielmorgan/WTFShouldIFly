@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,900);
+
 /*
 	-- begin reset
 */
@@ -9,9 +11,10 @@ html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address
 */
 
 body {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	text-transform: uppercase;
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	text-transform: normal;
 	height: 100%;
+    background-color: #ffb23d;
 }
 
 .loading {
@@ -22,13 +25,30 @@ body {
 	top: 50%;
 }
 
+#logo {
+    position: fixed;
+    z-index: 10;
+    display: block;
+}
+
+#logo img {
+    width: 256px;
+    height: 256px;
+}
+
 #wrapper {
-	width: 710px;
+    min-width: 360px;
+	width: 50%;
+    max-width: 710px;
 	margin: 0 auto;
+    position: relative;
+    z-index: 20;
+    background-color: rgba(255, 178, 61, 0.5);
+    padding: 30px;
 }
 
 header, article {
-	font-weight: 800;
+	font-weight: 400;
 	color: #000;
 }
 
@@ -43,7 +63,7 @@ header h1 {
 }
 
 #output {
-	font-size: 48px;
+	font-size: 42px;
 	line-height: 48px;
 	margin: 60px 0;
 }
@@ -66,17 +86,19 @@ noscript {
 #output dd {
 	display: block;
 	margin: 60px 0;
+    font-size: 48px;
+    font-weight: 900;
 }
 
 #generate {
 	text-decoration: none;
-	font-size: 20px;
-	color: #000;
+    font-size: 30px;
+	color: #ff3600;
 }
 
 #generate:hover {
 	text-decoration: underline;
-	color: black;
+	color: #000;
 }
 
 aside {
@@ -94,7 +116,7 @@ aside {
 #share-facebook {}
 #share-twitter {position: relative; top: -1px;}
 .twitter-share-button {
-	font-size: 11px;	
+	font-size: 11px;
 	color: #000;
 }
 
@@ -104,7 +126,7 @@ footer {
 	text-align: right;
 	line-height: 16px;
 	font-size: 12px;
-	color: #666;
+	color: #333;
 	margin: 12px 24px;
 	bottom: 0;
 	right: 0;
@@ -112,9 +134,10 @@ footer {
 
 footer a {
 	text-decoration: none;
-	color: #000;
+	color: #ff3600;
 }
 
 footer a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
+    color: #000;
 }

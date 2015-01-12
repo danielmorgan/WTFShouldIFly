@@ -32,7 +32,7 @@ var WTF = (function() {
     */
 
     function start() {
-        
+
         // Copy out templates then remove from corpus
 
         templates = corpus.template;
@@ -163,7 +163,7 @@ var WTF = (function() {
         dom.generate.text( randomItem( responses ) );
         dom.output.html(
             '<dl>' +
-                '<dt>' + randomItem( headings ) + '</dt>' +
+                '<dt>' + randomItem( headings ) + '&hellip;</dt>' +
                 '<dd>' + idea + '</dd>' +
             '</dl>'
         );
@@ -203,7 +203,7 @@ var WTF = (function() {
         for ( var key in corpus )
 
             copy[ key ] = corpus[ key ].concat();
-        
+
         return copy;
     }
 
@@ -222,7 +222,7 @@ var WTF = (function() {
             Expects one of the following:
 
                 1.  An object with `templates` and any amount of keys for word types, for example:
-        
+
                     {
                         templates: [ 'The @color @animal', 'The @animal was @color' ],
                         animal: [ 'dog', 'cat', 'rabbit' ],
@@ -232,7 +232,7 @@ var WTF = (function() {
                 2.  A path to a JSON file with the same structure as above (see `sample.json`)
 
                 3.  A Google spreadsheet key (e.g 0AvG1Hx204EyydF9ub1M2cVJ3Z1VGdDhTSWg0ZV9LNGc)
-                    You must first publish the spreadsheet as a CSV 
+                    You must first publish the spreadsheet as a CSV
                     @see https://support.google.com/drive/answer/37579?hl=en
 
         */

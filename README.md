@@ -1,3 +1,11 @@
+# EVE Online - WTF Should I Fly...
+
+Data source is a [Google spreadsheet](https://docs.google.com/spreadsheet/ccc?key=0Al8vgkz5ytpOdE13bmlZck5WU3U1R1oxbU9wUUlWOFE&usp=sharing). Leave recommendations for new terrible fits!
+
+And join [All-Out](https://gate.eveonline.com/Corporation/All-Out)
+
+----------
+
 # WTF Engine
 
 Inspired by [WhatTheFuckShouldIMakeForDinner.com](http://whatthefuckshouldimakefordinner.com/), in 2011 I made [WhatTheFuckIsMyMashup.com](http://whatthefuckismymashup.com/) and released this simple tool, the [WTFEngine](https://github.com/soulwire/WTFEngine/), for generating similar websites.
