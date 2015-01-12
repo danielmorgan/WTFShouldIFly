@@ -27,13 +27,14 @@
                 </div>
                 <a id="generate" href="#" title="Hit me again!"></a>
             </article>
-            <aside>
-                <ul id="share">
-                    <!--<li id="share-twitter"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://eveshitfits.com" data-count="horizontal" data-via="allouteve">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></li>-->
-                </ul>
-            </aside>
             <img class="loading" src="images/loading.gif">
         </div>
+
+        <aside>
+            <ul id="share">
+                <li id="share-twitter"><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://wtfshouldifly.herokuapp.com/" data-count="horizontal" data-via="AllOutEve">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></li>
+            </ul>
+        </aside>
 
         <footer>
             <div id="about">
